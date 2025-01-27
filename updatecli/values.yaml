@@ -1,0 +1,8 @@
+github:
+  user: "treezio"
+  email: "upgrades@treez.io"
+  username: "treezio"
+  token: "GITHUB_TOKEN"
+  branch: "main"
+  owner: "treezio"
+  repository: "updatecli-gitops"

@@ -1,0 +1,15 @@
+tolerations:
+- key: dedicated
+  operator: Equal
+  value: observability-prod-nodes
+  effect: NoSchedule
+
+affinity:
+  nodeAffinity:
+    requiredDuringSchedulingIgnoredDuringExecution:
+      nodeSelectorTerms:
+      - matchExpressions:
+        - key: instancegroup
+          operator: In
+          values:
+          - observability-prod-nodes
