@@ -1,6 +1,6 @@
 #!/bin/sh
 NAMESPACE=tracing
-CHART_VERSION=0.117.0
+CHART_VERSION=0.117.1
 APPLICATION="opentelemetry-collector"
 ENVIRONMENT=`kubectl config current-context | cut -d- -f1`
 DEPLOY=false
